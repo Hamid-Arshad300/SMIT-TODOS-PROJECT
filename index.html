@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Todo App</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="todo-app">
+
+        <h1>My Todo List</h1>
+        <p class="subtitle">Organize your day, one task at a time.</p>
+
+        <div class="input-area">
+            <input type="text" id="taskInput"
+                placeholder="What needs to be done?">
+
+            <button id="addTaskButton">Add Task</button>
+        </div>
+
+        <div class="list-heading">
+            <h2>Your Tasks</h2>
+            <button id="delAll">Delete All</button>
+        </div>
+
+        <div id="list-items"></div>
+
+    </div>
+
+    <script type="module" src="./app.js"></script>
+
+</body>
+</html>
